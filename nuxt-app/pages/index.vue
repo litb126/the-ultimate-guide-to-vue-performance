@@ -1,5 +1,8 @@
 <template>
-    <div class="flex items-center justify-center h-screen">
-        <h1 class="text-6xl -mt-48">The Ultimate Guide to Vue Performance</h1>
+    <div class="flex items-center justify-center h-screen -mt-36">
+        <div>
+            <div class="badge badge-lg badge-primary badge-outline">Nuxt App</div>
+            <h1 class="text-6xl ">The Ultimate Guide to Vue Performance</h1>
+        </div>
     </div>
 </template>
