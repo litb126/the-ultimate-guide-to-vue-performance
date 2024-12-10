@@ -40,6 +40,17 @@ export const routes = [
     component: () => import('../views/4-prefetching-end.vue'),
   },
   {
+    path: '/5-lazy-hydrate-begin',
+    name: 'Lazy Hydrate Begin',
+
+    component: () => import('../views/5-lazy-hydrate-begin.vue'),
+  },
+  {
+    path: '/5-lazy-hydrate-end',
+    name: 'Lazy Hydrate End',
+    component: () => import('../views/5-lazy-hydrate-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
