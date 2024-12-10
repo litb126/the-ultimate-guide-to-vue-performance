@@ -6,9 +6,5 @@ const show = ref(false);
 <template>
     <h1>Hello Code Splitting Page End</h1>
     <button @click="show = !show">Toggle Code Splitting Example</button>
-    <LazyCodeSplitExampleComponent v-if="show">
-        <template #loading>
-            H
-        </template>
-    </LazyCodeSplitExampleComponent>
+    <LazyCodeSplitExampleComponent v-if="show" />
 </template>
