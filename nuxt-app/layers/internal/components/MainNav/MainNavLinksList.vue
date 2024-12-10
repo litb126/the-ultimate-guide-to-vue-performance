@@ -22,7 +22,7 @@ const links = [
     },
     {
         title: 'Prefetching Begin',
-        to: '/4-prefetching-end',
+        to: '/4-prefetching-begin',
     },
     {
         title: 'Prefetching End',
