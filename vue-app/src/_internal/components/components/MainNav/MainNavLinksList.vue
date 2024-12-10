@@ -14,11 +14,19 @@ const links = [
     },
     {
         title: 'Code Splitting Begin',
-        to: '/3-code-splitting-end',
+        to: '/3-code-splitting-begin',
     },
     {
         title: 'Code Splitting End',
         to: '/3-code-splitting-end',
+    },
+    {
+        title: 'Prefetching Begin',
+        to: '/4-prefetching-end',
+    },
+    {
+        title: 'Prefetching End',
+        to: '/4-prefetching-end',
     }
 
 ];
