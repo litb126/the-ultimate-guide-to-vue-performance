@@ -5,7 +5,7 @@ import TreeShakingEnd from '../views/2-tree-shaking-end.vue'
 export const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: () => import('../views/HomeView.vue')
   },
   {
