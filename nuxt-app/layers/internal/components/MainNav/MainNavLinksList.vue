@@ -27,6 +27,14 @@ const links = [
     {
         title: 'Prefetching End',
         to: '/4-prefetching-end',
+    },
+    {
+        title: 'Lazy Hydrate Begin',
+        to: '/5-lazy-hydrate-begin',
+    },
+    {
+        title: 'Lazy Hydrate End',
+        to: '/5-lazy-hydrate-end',
     }
 
 ];
