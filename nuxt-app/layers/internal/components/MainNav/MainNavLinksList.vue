@@ -29,13 +29,29 @@ const links = [
         to: '/4-prefetching-end',
     },
     {
+        title: 'Architecture Begin',
+        to: '/5-architecture-begin',
+    },
+    {
+        title: 'Architecture End',
+        to: '/5-architecture-end',
+    },
+    {
         title: 'Lazy Hydrate Begin',
-        to: '/5-lazy-hydrate-begin',
+        to: '/6-lazy-hydrate-begin',
     },
     {
         title: 'Lazy Hydrate End',
-        to: '/5-lazy-hydrate-end',
-    }
+        to: '/6-lazy-hydrate-end',
+    },
+    {
+        title: 'Vapor Mode Begin',
+        to: '/7-vue-vapor-mode-begin',
+    },
+    {
+        title: 'Vapor Mode End',
+        to: '/7-vue-vapor-mode-end',
+    },
 
 ];
 </script>

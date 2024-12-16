@@ -40,15 +40,36 @@ export const routes = [
     component: () => import('../views/4-prefetching-end.vue'),
   },
   {
-    path: '/5-lazy-hydrate-begin',
-    name: 'Lazy Hydrate Begin',
+    path: '/5-architecture-begin',
+    name: 'Architecture Begin',
 
-    component: () => import('../views/5-lazy-hydrate-begin.vue'),
+    component: () => import('../views/5-architecture-begin.vue'),
   },
   {
-    path: '/5-lazy-hydrate-end',
+    path: '/5-architecture-end',
+    name: 'Architecture End',
+    component: () => import('../views/5-architecture-end.vue'),
+  },
+  {
+    path: '/6-lazy-hydrate-begin',
+    name: 'Lazy Hydrate Begin',
+
+    component: () => import('../views/6-lazy-hydrate-begin.vue'),
+  },
+  {
+    path: '/6-lazy-hydrate-end',
     name: 'Lazy Hydrate End',
-    component: () => import('../views/5-lazy-hydrate-end.vue'),
+    component: () => import('../views/6-lazy-hydrate-end.vue'),
+  },
+  {
+    path: '/7-vue-vapor-mode-begin',
+    name: 'Vapor Mode Begin',
+    component: () => import('../views/7-vue-vapor-mode-begin.vue'),
+  },
+  {
+    path: '/7-vue-vapor-mode-end',
+    name: 'Vapor Mode End',
+    component: () => import('../views/7-vue-vapor-mode-end.vue'),
   },
   {
     path: '/about',
