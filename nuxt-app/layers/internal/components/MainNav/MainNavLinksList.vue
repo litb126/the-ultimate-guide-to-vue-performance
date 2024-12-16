@@ -52,6 +52,14 @@ const links = [
         title: 'Vapor Mode End',
         to: '/7-vue-vapor-mode-end',
     },
+    {
+        title: 'List Virtualization Begin',
+        to: '/8-list-virtualization-begin',
+    },
+    {
+        title: 'List Virtualization End',
+        to: '/8-list-virtualization-end',
+    },
 
 ];
 </script>

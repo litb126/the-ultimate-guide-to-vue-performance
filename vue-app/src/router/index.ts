@@ -72,6 +72,16 @@ export const routes = [
     component: () => import('../views/7-vue-vapor-mode-end.vue'),
   },
   {
+    path: '/8-list-virtualization-begin',
+    name: 'List Virtualization Begin',
+    component: () => import('../views/8-list-virtualization-begin.vue'),
+  },
+  {
+    path: '/8-list-virtualization-end',
+    name: 'List Virtualization End',
+    component: () => import('../views/8-list-virtualization-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
