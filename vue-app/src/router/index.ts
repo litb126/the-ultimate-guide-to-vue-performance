@@ -112,6 +112,16 @@ export const routes = [
     component: () => import('../views/10-memory-leak-end.vue'),
   },
   {
+    path: '/11-unnecessary-abstractions-begin',
+    name: 'Unnecessary Abstractions Begin',
+    component: () => import('../views/11-unnecessary-abstractions-begin.vue'),
+  },
+  {
+    path: '/11-unnecessary-abstractions-end',
+    name: 'Unnecessary Abstractions End',
+    component: () => import('../views/11-unnecessary-abstractions-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),

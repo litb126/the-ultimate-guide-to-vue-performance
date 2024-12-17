@@ -84,6 +84,14 @@ const links = [
         title: 'Memory Leak End',
         to: '/10-memory-leak-end',
     },
+    {
+        title: 'Unnecessary Abstractions Begin',
+        to: '/11-unnecessary-abstractions-begin',
+    },
+    {
+        title: 'Unnecessary Abstractions End',
+        to: '/11-unnecessary-abstractions-end',
+    },
 
 ];
 </script>
