@@ -82,6 +82,26 @@ export const routes = [
     component: () => import('../views/8-list-virtualization-end.vue'),
   },
   {
+    path: '/9a-shallow-ref-begin',
+    name: 'Shallow Ref Part 1 Begin',
+    component: () => import('../views/9a-shallow-ref-begin.vue'),
+  },
+  {
+    path: '/9a-shallow-ref-end',
+    name: 'Shallow Ref Part 1 End',
+    component: () => import('../views/9a-shallow-ref-end.vue'),
+  },
+  {
+    path: '/9b-shallow-ref-begin',
+    name: 'Shallow Ref Part 2 Begin',
+    component: () => import('../views/9b-shallow-ref-begin.vue'),
+  },
+  {
+    path: '/9b-shallow-ref-end',
+    name: 'Shallow Ref Part 2 End',
+    component: () => import('../views/9b-shallow-ref-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),

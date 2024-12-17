@@ -60,6 +60,22 @@ const links = [
         title: 'List Virtualization End',
         to: '/8-list-virtualization-end',
     },
+    {
+        title: 'Shallow Ref Part 1 Begin',
+        to: '/9a-shallow-ref-begin',
+    },
+    {
+        title: 'Shallow Ref Part 1 End',
+        to: '/9a-shallow-ref-end',
+    },
+    {
+        title: 'Shallow Ref Part 2 Begin',
+        to: '/9b-shallow-ref-begin',
+    },
+    {
+        title: 'Shallow Ref Part 2 End',
+        to: '/9b-shallow-ref-end',
+    },
 
 ];
 </script>
