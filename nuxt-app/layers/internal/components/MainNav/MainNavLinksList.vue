@@ -76,6 +76,14 @@ const links = [
         title: 'Shallow Ref Part 2 End',
         to: '/9b-shallow-ref-end',
     },
+    {
+        title: 'Memory Leak Begin',
+        to: '/10-memory-leak-begin',
+    },
+    {
+        title: 'Memory Leak End',
+        to: '/10-memory-leak-end',
+    },
 
 ];
 </script>

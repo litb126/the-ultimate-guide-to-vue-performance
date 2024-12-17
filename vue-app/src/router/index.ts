@@ -102,6 +102,16 @@ export const routes = [
     component: () => import('../views/9b-shallow-ref-end.vue'),
   },
   {
+    path: '/10-memory-leak-begin',
+    name: 'Memory Leak Begin',
+    component: () => import('../views/10-memory-leak-begin.vue'),
+  },
+  {
+    path: '/10-memory-leak-end',
+    name: 'Memory Leak End',
+    component: () => import('../views/10-memory-leak-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
