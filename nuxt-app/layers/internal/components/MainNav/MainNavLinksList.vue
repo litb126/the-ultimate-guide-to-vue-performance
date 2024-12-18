@@ -116,6 +116,14 @@ const links = [
         title: 'v-once End',
         to: '/14-v-once-end',
     },
+    {
+        title: 'v-memo Begin',
+        to: '/15-v-memo-begin',
+    },
+    {
+        title: 'v-memo End',
+        to: '/15-v-memo-end',
+    },
 
 ];
 </script>

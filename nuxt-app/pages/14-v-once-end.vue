@@ -2,7 +2,7 @@
 const sweet = ref(true)
 </script>
 <template>
-    <h1 class="text-3xl mb-3">Prop Stability End</h1>
+    <h1 class="text-3xl mb-3">v-once End</h1>
     <label class="label">
         <input class="checkbox" type="checkbox" v-model="sweet">
     </label>
