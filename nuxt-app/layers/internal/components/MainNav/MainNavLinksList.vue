@@ -92,6 +92,14 @@ const links = [
         title: 'Unnecessary Abstractions End',
         to: '/11-unnecessary-abstractions-end',
     },
+    {
+        title: 'Images Begin',
+        to: '/12-images-begin',
+    },
+    {
+        title: 'Images End',
+        to: '/12-images-end',
+    },
 
 ];
 </script>

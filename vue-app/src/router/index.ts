@@ -122,6 +122,16 @@ export const routes = [
     component: () => import('../views/11-unnecessary-abstractions-end.vue'),
   },
   {
+    path: '/12-images-begin',
+    name: 'Images Begin',
+    component: () => import('../views/12-images-begin.vue'),
+  },
+  {
+    path: '/12-images-end',
+    name: 'Images End',
+    component: () => import('../views/12-images-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
