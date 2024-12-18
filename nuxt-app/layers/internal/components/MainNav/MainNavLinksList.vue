@@ -108,6 +108,14 @@ const links = [
         title: 'Prop Stability End',
         to: '/13-prop-stability-end',
     },
+    {
+        title: 'v-once Begin',
+        to: '/14-v-once-begin',
+    },
+    {
+        title: 'v-once End',
+        to: '/14-v-once-end',
+    },
 
 ];
 </script>

@@ -132,6 +132,26 @@ export const routes = [
     component: () => import('../views/12-images-end.vue'),
   },
   {
+    path: '/13-prop-stability-begin',
+    name: 'Prop Stability Begin',
+    component: () => import('../views/13-prop-stability-begin.vue'),
+  },
+  {
+    path: '/13-prop-stability-end',
+    name: 'Prop Stability End',
+    component: () => import('../views/13-prop-stability-end.vue'),
+  },
+  {
+    path: '/14-v-once-begin',
+    name: 'v-once Begin',
+    component: () => import('../views/14-v-once-begin.vue'),
+  },
+  {
+    path: '/14-v-once-end',
+    name: 'v-once End',
+    component: () => import('../views/14-v-once-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
