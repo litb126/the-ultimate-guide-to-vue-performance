@@ -100,6 +100,14 @@ const links = [
         title: 'Images End',
         to: '/12-images-end',
     },
+    {
+        title: 'Prop Stability Begin',
+        to: '/13-prop-stability-begin',
+    },
+    {
+        title: 'Prop Stability End',
+        to: '/13-prop-stability-end',
+    },
 
 ];
 </script>
