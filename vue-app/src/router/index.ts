@@ -172,6 +172,16 @@ export const routes = [
     component: () => import('../views/16-computed-stability-end.vue'),
   },
   {
+    path: '/17-data-basics-begin',
+    name: 'Data Fetching Basics Begin',
+    component: () => import('../views/17-data-basics-begin.vue'),
+  },
+  {
+    path: '/17-data-basics-end',
+    name: 'Data Fetching Basics End',
+    component: () => import('../views/17-data-basics-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),

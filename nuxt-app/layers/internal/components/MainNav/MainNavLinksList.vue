@@ -132,6 +132,14 @@ const links = [
         title: 'Computed Stability End',
         to: '/16-computed-stability-end',
     },
+    {
+        title: 'Data Fetching Basics Begin',
+        to: '/17-data-basics-begin',
+    },
+    {
+        title: 'Data Fetching Basics End',
+        to: '/17-data-basics-end',
+    },
 
 ];
 </script>
