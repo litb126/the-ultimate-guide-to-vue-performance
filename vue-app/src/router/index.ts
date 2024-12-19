@@ -152,6 +152,26 @@ export const routes = [
     component: () => import('../views/14-v-once-end.vue'),
   },
   {
+    path: '/15-v-memo-begin',
+    name: 'v-memo Begin',
+    component: () => import('../views/15-v-memo-begin.vue'),
+  },
+  {
+    path: '/15-v-memo-end',
+    name: 'v-memo End',
+    component: () => import('../views/15-v-memo-end.vue'),
+  },
+  {
+    path: '/16-computed-stability-begin',
+    name: 'Computed Prop Begin',
+    component: () => import('../views/16-computed-stability-begin.vue'),
+  },
+  {
+    path: '/16-computed-stability-end',
+    name: 'Computed Prop End',
+    component: () => import('../views/16-computed-stability-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),

@@ -124,6 +124,14 @@ const links = [
         title: 'v-memo End',
         to: '/15-v-memo-end',
     },
+    {
+        title: 'Computed Stability Begin',
+        to: '/16-computed-stability-begin',
+    },
+    {
+        title: 'Computed Stability End',
+        to: '/16-computed-stability-end',
+    },
 
 ];
 </script>
