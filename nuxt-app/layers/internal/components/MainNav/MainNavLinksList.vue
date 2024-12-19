@@ -140,6 +140,14 @@ const links = [
         title: 'Data Fetching Basics End',
         to: '/17-data-basics-end',
     },
+    {
+        title: 'Parallel Data Fetching Begin',
+        to: '/18-parallel-data-fetching-begin',
+    },
+    {
+        title: 'Parallel Data Fetching End',
+        to: '/18-parallel-data-fetching-end',
+    },
 
 ];
 </script>

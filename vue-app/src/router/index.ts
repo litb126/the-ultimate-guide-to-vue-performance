@@ -182,6 +182,16 @@ export const routes = [
     component: () => import('../views/17-data-basics-end.vue'),
   },
   {
+    path: '/18-parallel-data-fetching-begin',
+    name: 'Parallel Data Fetching Begin',
+    component: () => import('../views/18-parallel-data-fetching-begin.vue'),
+  },
+  {
+    path: '/18-parallel-data-fetching-end',
+    name: 'Parallel Data Fetching End',
+    component: () => import('../views/18-parallel-data-fetching-end.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),
