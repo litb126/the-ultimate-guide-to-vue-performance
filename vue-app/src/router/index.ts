@@ -202,6 +202,16 @@ export const routes = [
     component: () => import('../views/19-data-caching-end.vue'),
   },
 
+  {
+    path: '/20-data-prefetching-begin',
+    name: 'Data Prefetching Begin',
+    component: () => import('../views/20-data-prefetching-begin.vue'),
+  },
+  {
+    path: '/20-data-prefetching-end',
+    name: 'Data Prefetching End',
+    component: () => import('../views/20-data-prefetching-end.vue'),
+  },
 
   {
     path: '/about',

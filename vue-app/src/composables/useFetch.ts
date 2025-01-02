@@ -5,9 +5,10 @@ import defu from "defu";
 interface useFetchOptions {
     ttl?: number;
     fetchOptions?: RequestInit;
+    immediate?: boolean;
 }
 
-export function useFetch<T extends unknown>(url: string, options?: useFetchOptions) {
+export function useFetch<T>(url: string, options?: useFetchOptions) {
     const data = ref<T>();
     const error = ref<unknown>();
     const loading = ref(false);
@@ -15,13 +16,14 @@ export function useFetch<T extends unknown>(url: string, options?: useFetchOptio
 
     const TEN_MINUTES = 1000 * 60 * 10;
     const opts = defu(options, {
+        immediate: true,
         ttl: TEN_MINUTES,
         fetchOptions: {
             headers: {
                 Accept: 'application/json'
             }
-        }
-    });
+        },
+    } as useFetchOptions);
 
     const fetchData = async () => {
         loading.value = true;
@@ -49,7 +51,10 @@ export function useFetch<T extends unknown>(url: string, options?: useFetchOptio
         fetchData();
     }
 
-    fetchData();
+    if (opts.immediate) {
+        fetchData();
+    }
+
 
     return { data, error, loading, execute: fetchData, refresh };
 }

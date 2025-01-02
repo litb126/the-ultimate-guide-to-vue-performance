@@ -148,6 +148,22 @@ const links = [
         title: 'Parallel Data Fetching End',
         to: '/18-parallel-data-fetching-end',
     },
+    {
+        title: 'Data Caching Begin',
+        to: '/19-data-caching-begin',
+    },
+    {
+        title: 'Data Caching End',
+        to: '/19-data-caching-end',
+    },
+    {
+        title: 'Data Prefetching Begin',
+        to: '/20-data-prefetching-begin',
+    },
+    {
+        title: 'Data Prefetching End',
+        to: '/20-data-prefetching-end',
+    },
 
 ];
 </script>
