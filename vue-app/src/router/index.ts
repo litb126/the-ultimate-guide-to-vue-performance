@@ -192,6 +192,18 @@ export const routes = [
     component: () => import('../views/18-parallel-data-fetching-end.vue'),
   },
   {
+    path: '/19-data-caching-begin',
+    name: 'Data Caching Begin',
+    component: () => import('../views/19-data-caching-begin.vue'),
+  },
+  {
+    path: '/19-data-caching-end',
+    name: 'Data Caching End',
+    component: () => import('../views/19-data-caching-end.vue'),
+  },
+
+
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/AboutView.vue'),

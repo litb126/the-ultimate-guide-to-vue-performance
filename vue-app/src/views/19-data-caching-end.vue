@@ -1,0 +1,26 @@
+<script setup lang="ts">
+import { useFetch } from '@/composables/useFetch';
+
+interface Joke {
+    id: string;
+    joke: string;
+    status: number;
+}
+
+const { data, execute, loading } = useFetch<Joke>('https://icanhazdadjoke.com/', {
+    ttl: 10_000
+})
+</script>
+<template>
+    <h1 class="text-3xl mb-3">Data Caching End</h1>
+    <p class="mb-3">{{ data?.joke }}</p>
+
+    <RouterLink class="link block mb-3" to="/19-data-caching-begin">
+        Go To Data Cache Begin Page
+    </RouterLink>
+
+
+    <button class="btn" @click="execute">
+        {{ loading ? 'Loading...' : 'Fetch Joke' }}
+    </button>
+</template>
