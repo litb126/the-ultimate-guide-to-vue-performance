@@ -172,6 +172,14 @@ const links = [
         title: 'Debouncing End',
         to: '/21-debouncing-end',
     },
+    {
+        title: 'Bundle Visualizer Begin',
+        to: '/22-bundle-visualizer-begin',
+    },
+    {
+        title: 'Bundle Visualizer End',
+        to: '/22-bundle-visualizer-end',
+    },
 
 ];
 </script>

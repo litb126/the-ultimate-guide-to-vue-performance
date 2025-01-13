@@ -222,6 +222,16 @@ export const routes = [
     name: 'Debouncing End',
     component: () => import('../views/21-debouncing-end.vue'),
   },
+  {
+    path: '/22-bundle-visualizer-begin',
+    name: 'Bundle Visualizer Begin',
+    component: () => import('../views/22-bundle-visualizer-begin.vue'),
+  },
+  {
+    path: '/22-bundle-visualizer-end',
+    name: 'Bundle Visualizer End',
+    component: () => import('../views/22-bundle-visualizer-end.vue'),
+  },
 
   {
     path: '/about',
