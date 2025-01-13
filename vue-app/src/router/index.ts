@@ -212,6 +212,16 @@ export const routes = [
     name: 'Data Prefetching End',
     component: () => import('../views/20-data-prefetching-end.vue'),
   },
+  {
+    path: '/21-debouncing-begin',
+    name: 'Debouncing Begin',
+    component: () => import('../views/21-debouncing-begin.vue'),
+  },
+  {
+    path: '/21-debouncing-end',
+    name: 'Debouncing End',
+    component: () => import('../views/21-debouncing-end.vue'),
+  },
 
   {
     path: '/about',

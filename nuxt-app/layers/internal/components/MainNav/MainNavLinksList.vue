@@ -164,6 +164,14 @@ const links = [
         title: 'Data Prefetching End',
         to: '/20-data-prefetching-end',
     },
+    {
+        title: 'Debouncing Begin',
+        to: '/21-debouncing-begin',
+    },
+    {
+        title: 'Debouncing End',
+        to: '/21-debouncing-end',
+    },
 
 ];
 </script>
