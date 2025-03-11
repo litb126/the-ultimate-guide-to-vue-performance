@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import _ from "lodash";
+import {shuffle} from "lodash-es";
 
 const items = [...Array(10).keys()];
-const shuffledItems = _.shuffle(items);
+const shuffledItems = shuffle(items);
 
 </script>
 <template>

@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TreeShakingBegin from '../views/2-tree-shaking-begin.vue'
-import TreeShakingEnd from '../views/2-tree-shaking-end.vue'
 
 export const routes = [
   {
@@ -11,12 +9,12 @@ export const routes = [
   {
     path: '/2-tree-shaking-begin',
     name: 'Tree Shaking Begin',
-    component: TreeShakingBegin,
+    component: () => import('../views/2-tree-shaking-begin.vue'),
   },
   {
     path: '/2-tree-shaking-end',
     name: 'Tree Shaking End',
-    component: TreeShakingEnd,
+    component: () => import('../views/2-tree-shaking-end.vue'),
   },
   {
     path: '/3-code-splitting-begin',
